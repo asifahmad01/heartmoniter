@@ -64,6 +64,39 @@ This is a Django-based project to monitor heart rates and manage patients. It in
 
 ## Running the Project
 
+Project Structure
+
+heartmoniter/
+├── home/
+│   ├── migrations/
+│   ├── templates/
+│   │   └── home/
+│   │       ├── register.html
+│   │       ├── login.html
+│   │       └── admin.html
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── heartmonitor/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── db.sqlite3
+├── manage.py
+├── requirements.txt
+└── README.md
+
+
+
+
+
 To start the development server, navigate to your project directory and run:
 
 ```bash
